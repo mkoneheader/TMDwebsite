@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal TMD site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4440b931f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Photo Studio</p>
+                <h1>Hi, I'm <span>Adomah</span><br>Oscar from Ghana</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------about------------  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to TMD Studio, where creativity meets professionalism. Our photo studio specializes in capturing life’s most precious moments through stunning photography and videography. Whether it’s a wedding, corporate event, or a personal photoshot, our team of exeperienced photographers and videographers are dedicated to delivering high-quality, visually captivating content. We pride ourselves on our attention to detail and our ability to tailor each session to meet the unique needs of our clients. Let us help you tell your story through beautiful images and videos that you’ll cherish forever.Feel free to customize it to better fit your style and services! If you need any more help, just let me know.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Photo Studio</span><br>Photography</li>
+                            <li><span>Video shooting</span><br>Videography</li>
+                            <li><span>Content Creating</span><br>Creating personal Contents</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Photography at Danka Photos</li>
+                            <li><span>2019 - 2021</span><br>Videography at Danka photos</li>
+                            <li><span>2017 - 2019</span><br>Creating personal Contents at Danka Photos</li>
+                            <li><span>2016 - 2017</span><br>Self Learning</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>current</span><br>KNUST University Kumasi</li>
+                            <li><span>2019</span><br>WASCE Certificate at KNUST SHS Kumasi</li>
+                            <li><span>2016</span><br>BECE Certificate at Yesu Mo D/A</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .............servicer............. -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-camera-retro"></i>
+                    <h2>Photo Shoot</h2>
+                    <p>Capture your moments with our professional photo shoot services. Whether it’s a special event, a family portrait, or a creative project, we bring your vision to life with stunning photography. Book your session today and let us create memories you’ll cherish forever.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video shoot</h2>
+                    <p>Bring your stories to life with our professional video shoot services. From concept to final cut, we capture every moment with precision and creativity. Whether it’s a corporate video, a special event, or a creative project, we ensure high-quality production that meets your vision. Book your video shoot today and let us create compelling visuals that leave a lasting impression.</p>
+                    <a href="#">Learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-brands fa-creative-commons-sa"></i>
+                    <h2>Creating Contents</h2>
+                    <p>Elevate your brand with our expert content creation services. From engaging blog posts and captivating videos to stunning graphics and social media content, we craft high-quality media that resonates with your audience. Let us help you tell your story and connect with your customers through compelling content. Book a consultation today to start creating impactful content.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- .............Portfolio............. -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Picture Shoot</h3>
+                        <p>We are ready to be at your service anytime anywhere. Just take our number or email and contact us.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>On Scene For A Video Shoot</h3>
+                        <p>We are ready to be at your service anytime anywhere. Just take our number or email and contact us.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Creating A Content</h3>
+                        <p>We are ready to be at your service anytime anywhere. Just take our number or email and contact us.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- ...........contact............. -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> adomahoscar@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 0550977716</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://snapchat.com/t/GpoYc99m"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://www.instagram.com/e_toomado?igsh=MTJlcXRrdDR6ZXRndA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@e_toomado?si=REoHMDO3fdBiE2GZ"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="images/my cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-regular fa-copyright"></i> Oscar. All Rights Reserved <i class="fa-regular fa-heart"></i></p>
+        </div>
+       </div>
+
+
+    
+    <script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+ 
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbykBpZuHDJzL3DiTqTwNb2CglfeOLfgJR1k1Q9hS7e4h6Ub3gOcCoupYq8rQYFzJO1D/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
